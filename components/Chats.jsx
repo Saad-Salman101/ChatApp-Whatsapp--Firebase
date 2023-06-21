@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { doc, onSnapshot } from "firebase/firestore";
 import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";

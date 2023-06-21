@@ -28,7 +28,7 @@ function Home() {
     {currentUser ? <MyHome /> :<div></div>}
 
     <Login />
-    <Register />
+    {/* <Register /> */}
     </>
   );
 }
