@@ -25,10 +25,10 @@ function Home() {
           <Head>
         <title>Boilerplate</title>
       </Head>
-    <MyHome />
+    {currentUser ? <MyHome /> :<div></div>}
 
     <Login />
-    {/* <Register /> */}
+    <Register />
     </>
   );
 }
