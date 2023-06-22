@@ -26,8 +26,8 @@ function Home() {
         <title>Boilerplate</title>
       </Head>
     {currentUser ? <MyHome /> :<div></div>}
-
-    <Login />
+    {!currentUser ? <Login/> : <div></div> }
+    {/* <Login /> */}
     {/* <Register /> */}
     </>
   );
