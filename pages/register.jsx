@@ -52,7 +52,7 @@ const Register = () => {
 
             router.push("/");
           } catch (err) {
-            console.log(err);
+            // console.log(err);
             setErr(true);
             setLoading(false);
           }
